@@ -1,0 +1,57 @@
+<div class="container">
+
+  <div>
+    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+  </div>
+
+  <div class="carusel">
+    <div class="col-md-12">
+      <div class="col-md-12">
+        <img src="assets/images/gal.jpg" alt=""/>
+        <div class="btn btn-success start_test">Розпочати тест</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row bordered">
+    <div class="col-md-12 control_row">
+      <div class="col-md-6 title">
+        <div class="col-md-12">
+          <div class="another_test">
+            Інші тести з предмету
+          </div>
+          <div class="another_test_subject">
+            "Історія України"
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="col-md-12">
+          <select class="another_subject form-control" name="" id="">
+            <option value="">Обрати інший предмет</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 subject_list">
+      <div class="col-md-6 test_themes" ng-repeat="item in main.blocksList">
+        <div class="col-md-6">
+          <img ng-src="{{item.link}}" alt=""/>
+        </div>
+        <div class="col-md-6">
+          <h2>Річ посполита</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="logout">
+      <div class="btn btn-warning pull-right">Вийти з системи</div>
+    </div>
+
+    <div class="copyright">
+      &#169; vewvwevw
+    </div>
+
+  </div>
+
+</div>
