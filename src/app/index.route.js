@@ -22,6 +22,11 @@
         controller: 'CreateTestController',
         controllerAs: 'createTest'
       })
+      .when('/results', {
+        templateUrl: 'app/results/result.html',
+        controller: 'ResultController',
+        controllerAs: 'result'
+      })
       .otherwise({
         redirectTo: '/'
       });
